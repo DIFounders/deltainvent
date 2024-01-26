@@ -1,0 +1,164 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  color: #35424a;
+  font-size: 16px; /* Base font size */
+}
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.background-image {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  background-color: #f8f9fb; /* Add a background color for better user experience */
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #35424a;
+  margin: 0 15px;
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #7641be;
+}
+
+.main-content {
+  text-align: center;
+  padding: 0px 50px 50px 50px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h1 {
+  color: #35424a;
+}
+
+footer {
+  background-color: #7641be;
+  color: #ffffff;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+}
+
+.inventor {
+  height: 30vh;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.highlight {
+  color: #7641be;
+}
+
+.button {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.primary-button {
+  background-color: #1abc9c;
+}
+
+.primary-button:hover {
+  background-color: #1abbbc;
+}
+
+.secondary-button {
+  background-color: #7641be;
+}
+
+.secondary-button:hover {
+  background-color: #af4cdd;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fb;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.container-services {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.service {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 10px;
+}
+.service h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+.service p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+.number {
+  font-size: 48px;
+  font-weight: 2000;
+}
